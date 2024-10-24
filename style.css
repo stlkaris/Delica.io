@@ -31,6 +31,15 @@ h1 {
 nav ul li a {
     color: white;
     text-decoration: none;
+    cursor: pointer;
+}
+
+nav ul li a:hover{
+    color: rgb(228, 102, 102);
+}
+nav ul li a:active,
+nav ul li a:focus{
+    color: #ff4500;
 }
 
 main {
